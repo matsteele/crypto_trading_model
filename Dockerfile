@@ -9,3 +9,5 @@ ENV POSTGRES_DB blockfi
 
 EXPOSE 5432
 CMD ["postgres"]
+
+

@@ -24,3 +24,7 @@ delete: ## Deletes the PostgreSQL docker container, image, and data volume
 
 console: ## Opens a psql console
 	@docker exec -it crypto-db psql -h localhost -U datascience -d blockfi
+
+dashboard:
+	@source server/venv/bin/activate
+	# @python server/main.py

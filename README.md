@@ -138,19 +138,12 @@ queries.
 
 the following credentials can be used for accessing the database:
 
-| CREDENTIAL | VALUE |
-
-| ---------- | ----- |
-
-| username   | datascience |
-
-| password   | data |
-
-| hostname   | 0.0.0.0 |
-
-| port       | 5431 |
-
-| database   | blockfi |
-
-
+|      CREDENTIAL    |      VALUE      |   |   |
+|:------------------:|:-------------:|---|---|
+|        username       |     datascience           |   |   |
+|        password            |    data            |   |   |
+|      hostname      |      0.0.0.0          |   |   |
+|     port    |          5432      |   |   |
+| database |         blockfi       |   |   |
+a
 

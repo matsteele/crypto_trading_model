@@ -1,10 +1,8 @@
 **/site-packages/
 **/__pycache__/
-<<<<<<< HEAD
 
 venv
 *.pyc
 .DS_Store
 .env
-=======
->>>>>>> 237906f5f6630ca18995e647f48c2809bc62e18b
+

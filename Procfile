@@ -1,1 +1,1 @@
-web: gunicorn main.py
+web: gunicorn crypto_dashboard:main

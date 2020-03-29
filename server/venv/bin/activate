@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/Users/matsteelelap/Desktop/ProjectFolder/blockFi_case/server/venv'
+VIRTUAL_ENV='/Users/matthewsteele/Desktop/ProjectFolder/crypto_trading_model/server/venv'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -12,7 +12,7 @@ from initiate import pullDataForChart
 app = dash.Dash(__name__)
 server = app.server
 app.title = "CRYPTO TRADING MODEL"
-git 
+
 app.layout = html.Div(children=[
     html.H1(children='CRYPTO TRADING MODEL'),
 

@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/matsteelelap/Desktop/ProjectFolder/blockFi_case/server/venv"
+$VIRTUAL_ENV = r"/Users/matthewsteele/Desktop/ProjectFolder/crypto_trading_model/server/venv"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

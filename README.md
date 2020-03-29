@@ -118,19 +118,19 @@ source venv/bin/activate
 python initialize.py
 ```
 
-\1. A directory called `postgres_data_blockfi` will be created at the top-level
+1) A directory called `postgres_data_blockfi` will be created at the top-level
 
 of this directory. This directory will serve to hold the volume data for your
 
 container instance.
 
-\2. PostgreSQL will then be started
+2) PostgreSQL will then be started
 
-\3. A `datascience` USER ROLE will be created
+3) A `datascience` USER ROLE will be created
 
-\4. The database schema will be created
+4) The database schema will be created
 
-\5. Sample data will be inserted into the database.
+5) Sample data will be inserted into the database.
 
 You can then run `make console` to launch a `psql` shell to write interactive
 
@@ -145,5 +145,4 @@ the following credentials can be used for accessing the database:
 |      hostname      |      0.0.0.0          |   |   |
 |     port    |          5432      |   |   |
 | database |         blockfi       |   |   |
-a
 

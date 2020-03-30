@@ -1,1 +1,1 @@
-web: gunicorn crypto_dashboard:main
+web: gunicorn main

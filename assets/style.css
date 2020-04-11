@@ -33,9 +33,9 @@ h1,h3 {
 
 
 
-.main-svg, .svg-container{
- width: 900px !important; 
-}
+/* .main-svg, .svg-container{
+ width: 900px !important;  */
+/* } */
 
 img{
   width:50%;
@@ -62,14 +62,17 @@ p{
     display: flex;
     height: 550px;
 }
+
 #dwnload{
     margin: 20px;
 }
+
 #sidebar{
     width: 30%;
     align-self: center;
     text-align: -webkit-center;
 }
+
 #bin_slider, #window_slider{
     width: 50%;  
 }

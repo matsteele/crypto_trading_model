@@ -105,20 +105,20 @@ make delete
 If you would like to rebuild the model from scratch you will need to first remove the docker volume and folder using the following command
 
 ```bash
-docker volume rm postgres_data_blockfi
-rm -rf postgres_data_blockfi
+docker volume rm postgres_data
+rm -rf postgres_data
 ```
 
 You'll then have to make a new volume folder, and initialize the python model building script. 
 
 ```
-mkdir -p postgres_data_blockfi
+mkdir -p postgres_data
 cd server
 source venv/bin/activate
 python initialize.py
 ```
 
-1) A directory called `postgres_data_blockfi` will be created at the top-level
+1) A directory called `postgres_data` will be created at the top-level
 
 of this directory. This directory will serve to hold the volume data for your
 
@@ -144,5 +144,5 @@ the following credentials can be used for accessing the database:
 |        password            |    data            |   |   |
 |      hostname      |      0.0.0.0          |   |   |
 |     port    |          5432      |   |   |
-| database |         blockfi       |   |   |
+| database |         cryptoDB       |   |   |
 

@@ -7,10 +7,9 @@ help: ## Display help prompt
 
 build: ## Creates a PostgreSQL docker image
 	@docker build -t crypto-db -f Dockerfile .
-	# mkdir -p postgres_data_blockfi
 
 create:
-	@docker run --name crypto-db -p 5432:5432 -v postgres_data_blockfi:/var/lib/postgresql/data crypto-db
+	@docker run --name crypto-db -p 5432:5432 -v postgres_data:/var/lib/postgresql/data crypto-db
 
 start: ## Starts the PostgreSQL docker container
 	@docker start crypto-db
@@ -23,7 +22,7 @@ delete: ## Deletes the PostgreSQL docker container, image, and data volume
 	@docker rmi crypto-db
 
 console: ## Opens a psql console
-	@docker exec -it crypto-db psql -h localhost -U datascience -d blockfi
+	@docker exec -it crypto-db psql -h localhost -U datascience -d cryptoDB
 
 dashboard:
 	@source server/venv/bin/activate

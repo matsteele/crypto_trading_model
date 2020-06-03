@@ -6,13 +6,6 @@ from datetime import datetime as dt
 from build_data import BuildCryptoData
 from model import CryptoModel
 
-# conn = connect(
-#     database="blockfi",
-#     user="datascience",
-#     port="5432",
-#     host="localhost",
-#     password="data"
-# )
 
 def pullDataForChart(aggBin, window):
     # print('Variables', 'data/H{}_L{}.csv'.format(aggBin, window))
@@ -171,7 +164,7 @@ def logToSqL(startDate='2018-01-01'):
             print('logged', eachPeriod, eachWindow)
             from sqlalchemy import create_engine
             engine = create_engine(
-                "postgresql://datascience:data@localhost:5432/blockfi")
+                "postgresql://datascience:data@localhost:5432/cryptoDB")
             df.to_sql('data4vis_per_'+str(eachPeriod) + "_win_" + str(eachWindow), con=engine,
                       if_exists='replace', index=False)
 
